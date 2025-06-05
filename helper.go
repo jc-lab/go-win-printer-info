@@ -2,8 +2,8 @@ package win_printer_info
 
 import (
 	"fmt"
+	"github.com/jc-lab/go-win-printer-info/winprinter"
 	"github.com/pkg/errors"
-	"go-win-printer-info/winprinter"
 	"golang.org/x/sys/windows"
 	"golang.org/x/sys/windows/registry"
 	"strconv"
